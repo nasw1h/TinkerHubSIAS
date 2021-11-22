@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body{
+    background-color: blue;
+}
+
+.section-home {
+    height: 50vh;
+    padding: 5rem 15rem;
+}
+
+.text-box {
+    margin-left: 3rem !important;
+}
+
+.home-heading {
+    font-size:5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.home-heading__1 {
+    opacity: 90%;
+}
+
+.home-heading__2 {
+    color: #FFAB4C;
+}
+
+.home-para {
+    font-size: 1.4rem;
+}
+
+.hero-img {
+    width: 100%;
+}
