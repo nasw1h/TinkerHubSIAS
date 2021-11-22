@@ -79,10 +79,24 @@ h5 {
     font-weight: bold;
     margin-top: 7rem;
     margin-bottom: 2rem;
+    animation: moveFromTop 3s ease-in-out;
+    transition: all .3s;
 }
 
 .home-heading__1 {
-    opacity: 90%;
+    opacity: 95%;
+}
+
+@keyframes moveFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 .home-heading__2 {
@@ -92,6 +106,7 @@ h5 {
 .home-para {
     font-size: 1.4rem;
     font-weight: 600;
+    opacity: 80%;
     margin-top: 3rem;
     width: 40%;
     margin: 0 auto;
@@ -111,7 +126,7 @@ section {
 
 /* things we do */
 .section-wedo {
-    background-color: #6166B3;
+    background-color: #6166b39c;
     margin: 0 auto;
 }
 
@@ -121,7 +136,7 @@ section {
 
 .card {
     font-size: 1.4rem;
-    background-color: #94DAFF !important;
+    background-color: transparent !important;
     padding: 2.5rem;
     border-radius: 2rem !important;
     width: 80%;
@@ -129,4 +144,33 @@ section {
     text-align: center;
     margin: 1rem auto;
     border: none !important;
+}
+
+/*Section-events*/
+.section-events {
+    text-align: center;
+    padding: 9rem;
+}
+
+.events-heading {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 9rem;
+}
+
+.heading-underline {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 30%;
+    outline: 3px solid #71DFE7;
+
+}
+
+.details-para {
+   font-size: 2.4rem;
+}
+
+.img-events {
+    width: 100%;
 }
