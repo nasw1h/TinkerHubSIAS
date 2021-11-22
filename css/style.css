@@ -111,7 +111,7 @@ section {
 
 /* things we do */
 .section-wedo {
-    background-color: #E3E9FF;
+    background-color: #6166B3;
     margin: 0 auto;
 }
 
@@ -121,7 +121,7 @@ section {
 
 .card {
     font-size: 1.4rem;
-    background-color: transparent !important;
+    background-color: #94DAFF !important;
     padding: 2.5rem;
     border-radius: 2rem !important;
     width: 80%;
