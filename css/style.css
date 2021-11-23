@@ -151,7 +151,7 @@ section {
 /* things we do */
 .section-wedo {
     margin: 0 auto;
-    background-color: #F7F7F7;
+    background-color: #F1FCFD;
 }
 
 .wedo-heading {
@@ -255,7 +255,16 @@ section {
 
 .counter {
     text-align: center;
-}
+    padding: 8rem;
+    color: white;
+    background-color: #376dcc;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(35.00, 35%, 72%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(215.34, 86%, 64%) 0, transparent 55%), url("../images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg");
+    background-size: cover;
+    background-position: top;
+    }
+
 
 .counter-box {
     background-color: black;
