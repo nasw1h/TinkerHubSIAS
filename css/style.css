@@ -40,7 +40,7 @@ body{
 h2 {
     text-align: center;
     font-weight: 700 !important;
-    font-size: 3.5rem !important;
+    font-size: 4rem !important;
     margin-bottom: 1rem;
     /* margin: 3rem auto !important; */
     /* border-bottom: 5px solid #00b588; */
@@ -50,9 +50,9 @@ h2 {
 } */
 
 h5 {
-    font-weight: 600 !important;
+    font-weight: 700 !important;
     margin-top: 2rem !important;
-    font-size: 1.8rem !important ;
+    font-size: 2.2rem !important ;
 }
 
 .fas {
@@ -151,8 +151,12 @@ section {
 
 /* things we do */
 .section-wedo {
-    background-color: #6166b39c;
     margin: 0 auto;
+    background-color: #F7F7F7;
+}
+
+.wedo-heading {
+    margin-bottom: 7rem;
 }
 
 .col-md-4 {
@@ -161,14 +165,29 @@ section {
 
 .card {
     font-size: 1.4rem;
-    background-color: transparent !important;
+    background-color: white !important;
     padding: 2.5rem;
-    border-radius: 2rem !important;
+    border-radius: 1rem !important;
     width: 80%;
     /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2); */
     text-align: center;
     margin: 1rem auto;
     border: none !important;
+    transition: all .3s;
+}
+
+.card:hover {
+    color: white;
+    transform: translateY(-1rem);
+    background-color: #88E0EF !important;
+}
+
+.card:hover .icon-wedo {
+    color: white;
+}
+
+.icon-wedo {
+    color: #88E0EF;
 }
 
 /*Section-events*/
