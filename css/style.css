@@ -5,12 +5,36 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (min-width: 1800px) {
+    html {
+        font-size: 75%;
+    }
 }
 
 body{
     background-color: blue;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -48,7 +72,8 @@ h5 {
 }
 
 .navbar-brand {
-    width: 15%;
+    /* background-color: black; */
+    width: 20rem;
 }
 
 .nav-logo {
@@ -78,7 +103,6 @@ h5 {
 .home-heading {
     font-size:5rem;
     font-weight: bold;
-    margin-top: 7rem;
     margin-bottom: 2rem;
     animation: moveFromTop 3s ease-in-out;
     transition: all .3s;
