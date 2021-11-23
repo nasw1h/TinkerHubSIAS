@@ -170,7 +170,29 @@ section {
     margin: 1rem auto;
     border: none !important;
 }
-
+.logo-networking{
+  background: url('https://api.iconify.design/fa-solid/chalkboard-teacher.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/fa-solid/chalkboard-teacher.svg');
+  align-items: center;
+  width: 50px;
+}
+.logo-bootcamps{
+  background: url('https://api.iconify.design/fluent/people-audience-24-filled.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/fluent/people-audience-24-filled.svg');
+  align-items: center;
+  width: 50px;
+}
+.logo-mentoring{
+  background: url('https://api.iconify.design/mdi/account-supervisor.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/mdi/account-supervisor.svg');
+  align-items: center;
+  width: 50px;
+}
+.nav-span:hover{
+  border-bottom: 5px solid black;
+  border-radius: 2px;
+  
+}
 /*Section-events*/
 .section-events {
     text-align: center;
