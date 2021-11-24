@@ -33,7 +33,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -54,8 +54,20 @@ h5 {
     font-size: 2.2rem !important ;
 }
 
+h6 {
+    font-size: 1.5rem !important;
+}
+
+img {
+    width: 100%;
+}
+
 .fas {
     font-size: 5rem;
+}
+
+.col-lg-3 {
+    text-align: center;
 }
 
 /* Navbar */
@@ -150,7 +162,8 @@ section {
 
 /* things we do */
 .section-wedo {
-  background-color: #D7E9F7;
+  /* background-color: #D7E9F7; */
+  background-color: #F7F7F7;
     margin: 0 auto;
 }
 
@@ -212,8 +225,47 @@ section {
   border-radius: 2px;
   
 }
+
+/* section-team */
+
+.section-team {
+  background-color: #F7F7F7;
+}
+
+.team-img-box {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.team-img {
+  width: 60%;
+}
+
+
+.team-card {
+  width: 25rem;
+  background-color: white;
+  margin: 0 auto 5rem auto;
+    padding: 2rem;
+    border: 2px solid rgba(0,0,0,0.38);
+    border-radius: 9px;
+}
+
+.img-wrapper {
+    width: 21rem;
+    height: 21rem;
+    background-color: #DADDFC;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.team-name {
+  color: #3e64ff;
+}
+
 /*Section-events*/
 .section-events {
+  /* background-color: #F7F7F7; */
     text-align: center;
     padding: 6rem;
 }
@@ -230,9 +282,12 @@ section {
 .event-box {
   display: flex;
   padding: 3rem;
-  border-radius: 15px;
-  background-color: #D1E8E4;
-  box-shadow: 0 1rem 4rem rgba(0,0,0, 0.2);
+  border-radius: 8px;
+  border-bottom: 3px solid rgba(28,110,164,0.38);
+}
+
+.box-margin:not(:last-child) {
+  margin-bottom: 4rem !important;
 }
 
 .box-1 {
