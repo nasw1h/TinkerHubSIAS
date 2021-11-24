@@ -54,8 +54,16 @@ h5 {
     font-size: 2.2rem !important ;
 }
 
+img {
+    width: 100%;
+}
+
 .fas {
     font-size: 5rem;
+}
+
+.col-lg-3 {
+    text-align: center;
 }
 
 /* Navbar */
@@ -212,6 +220,19 @@ section {
   border-radius: 2px;
   
 }
+
+/* section-team */
+
+.team-card {
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.img-wrapper {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
 /*Section-events*/
 .section-events {
     text-align: center;
