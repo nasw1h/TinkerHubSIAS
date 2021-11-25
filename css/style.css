@@ -33,16 +33,14 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     text-align: center;
     font-weight: 700 !important;
     font-size: 4rem !important;
-    margin-bottom: 1rem;
-    /* margin: 3rem auto !important; */
-    /* border-bottom: 5px solid #00b588; */
+    margin-bottom: 5rem !important;
 }
 /* .h2-wrapper {
     margin: 0 auto;
@@ -336,8 +334,60 @@ section {
 /*Students*/
 
 .students {
-    padding: 15rem;
-    background: #000;
+    padding: 10rem;
+    background: linear-gradient(-120deg, #F7F7F7 50%, #427ce2 50%);
+    position: relative;
+}
+
+.carousel-indicators li {
+  background: #000 !important;
+  border-radius: 50% !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
+.carousel-indicators .active {
+  background: #999 !important;
+}
+
+.single-item {
+  height: 40rem;
+  background: #222831;
+  display: block;
+  text-align: center;
+  padding: 4rem;
+  border-radius: 15px;
+}
+
+.carousel-box {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: grey;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  object-fit: cover !important;
+}
+
+.carousel-caption {
+  color: #fff !important;
+}
+
+.carousel-title {
+  font-size: 4rem !important;
+  color: #3e64ff;
+  font-weight: 600;
+}
+
+.carousel-para {
+  font-size: 1.7rem !important;
+  opacity: 50%;
+  font-weight: 500;
 }
 
 /*Counter*/
@@ -437,7 +487,7 @@ section {
 
   /*Footer Section*/
   footer {
-    background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+    background-image: linear-gradient(127deg, #258fd6 0%, #2b46e0 91%);
     padding-top: 30px;
   }
   
@@ -453,15 +503,15 @@ section {
   }
   
   footer .social li a {
-    color: #9d5bd9;
+    color: #ec780b;
      text-align: center;
     background-color: #fff;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
+    width: 3.6rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
     border-radius: 50%;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2rem;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
