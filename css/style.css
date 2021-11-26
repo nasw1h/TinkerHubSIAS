@@ -195,7 +195,7 @@ section {
     text-align: center;
 }
 
-.card {
+ .card {
     font-size: 1.4rem;
     background-color: white !important;
     padding: 2.5rem;
@@ -206,7 +206,7 @@ section {
     margin: 1rem auto;
     border: none !important;
     transition: all .3s;
-    height: 35rem;
+    min-height: 40rem;
     
 }
 
@@ -240,10 +240,12 @@ section {
   font-weight: 500;
 }
 
+.nav-span{
+  border-bottom: 3px solid transparent;
+}
+
 .nav-span:hover{
-  width: 8rem;
-  height: 5rem;
-  background-color: rgba(0,0,0,0.38);
+  border-bottom: 3px solid black;
 }
 
 /* section-team */
@@ -273,7 +275,7 @@ section {
 
 .img-wrapper {
     width: 21rem;
-    height: 21rem;
+    height: 22rem;
     background-color: #DADDFC;
     border-radius: 1rem;
     overflow: hidden;
@@ -291,7 +293,7 @@ section {
 }
 
 /*Section-events*/
-.section-events {
+#section-events {
   /* background-color: #F7F7F7; */
     text-align: center;
     padding: 6rem;
@@ -752,7 +754,7 @@ section {
 
   /*Footer Section*/
   footer {
-    background-image: linear-gradient(127deg, #258fd6 0%, #2b46e0 91%);
+    background: #317bec;
     padding-top: 30px;
   }
   
@@ -768,9 +770,9 @@ section {
   }
   
   footer .social li a {
-    color: #ec780b;
-     text-align: center;
-    background-color: #fff;
+    background-color: #317bec;
+    color: #fff;
+    text-align: center;
     width: 3.6rem;
     height: 3.6rem;
     line-height: 3.6rem;
@@ -784,8 +786,8 @@ section {
   }
   
   footer .social li a:hover {
-    background-color: #ff589e;
-    color: #fff;
+    color: #317bec;
+    background-color: #fff;
   }
   
   footer .copyright {
@@ -810,4 +812,33 @@ section {
     footer .footer-nav {
       margin-bottom: 30px;
     }
+  }
+
+
+  /* Resources  */
+
+  
+  #resources a,
+  #resources a:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+  }
+
+
+  #resources .reso-card {
+    background: white;
+    font-size: 2rem;
+    padding: 3rem ;
+    box-shadow: 0 0 5rem #00000017;
+    border-radius: 1rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    min-height: 12rem;
+    transition: all .3s ease-out;
+  }
+
+  #resources .reso-card:hover {
+    background: linear-gradient(45deg, #372acf, #2dafff);
+    color: white;
+    transform: scale(1.02) translateY(-3px);
   }
