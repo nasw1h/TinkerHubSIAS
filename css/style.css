@@ -182,8 +182,6 @@ section {
 
 /* things we do */
 .section-wedo {
-  /* background-color: #D7E9F7; */
-  background-color: #F7F7F7;
     margin: 0 auto;
 }
 
@@ -203,10 +201,11 @@ section {
     width: 80%;
     /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2); */
     text-align: center;
-    margin: 1rem auto;
+    margin: 2rem auto;
     border: none !important;
     transition: all .3s;
     min-height: 40rem;
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.082);
     
 }
 
@@ -250,9 +249,6 @@ section {
 
 /* section-team */
 
-.section-team {
-  background-color: #F7F7F7;
-}
 
 .team-img-box {
   text-align: center;
@@ -552,18 +548,8 @@ section {
   flex-wrap: wrap;
 }
 
-/* .about-us-image {
-  width: 70%;
-} */
-
 .about-us .row {
   margin-bottom: 3rem !important;
-}
-
-.about-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 5rem;
 }
 
 .about-container:not(:last-child) {
@@ -575,10 +561,6 @@ section {
   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.24);
   padding: 3rem;
   border-radius: 20px;
-}
-
-.mission-box2 {
-  margin: 3rem 1rem;
 }
 
 .about-us-heading {
@@ -844,4 +826,10 @@ section {
     background: linear-gradient(45deg, #372acf, #2dafff);
     color: white;
     transform: scale(1.02) translateY(-3px);
+  }
+
+  @media screen and (max-width: 769px) {
+    .about-us img {
+      display: none;
+    }
   }
