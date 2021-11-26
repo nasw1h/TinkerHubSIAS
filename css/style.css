@@ -592,7 +592,7 @@ section {
 
   /*Footer Section*/
   footer {
-    background-image: linear-gradient(127deg, #258fd6 0%, #2b46e0 91%);
+    background: #317bec;
     padding-top: 30px;
   }
   
@@ -608,9 +608,9 @@ section {
   }
   
   footer .social li a {
-    color: #ec780b;
-     text-align: center;
-    background-color: #fff;
+    background-color: #317bec;
+    color: #fff;
+    text-align: center;
     width: 3.6rem;
     height: 3.6rem;
     line-height: 3.6rem;
@@ -624,8 +624,8 @@ section {
   }
   
   footer .social li a:hover {
-    background-color: #ff589e;
-    color: #fff;
+    color: #317bec;
+    background-color: #fff;
   }
   
   footer .copyright {
