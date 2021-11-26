@@ -245,8 +245,8 @@ section {
   background-color: #fff;
   margin: 0 auto 5rem auto;
     padding: 2rem;
-    border: 2px solid rgba(0,0,0,0.38);
-    border-radius: 9px;
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.082);
+    border-radius: 20px;
 }
 
 .img-wrapper {
@@ -383,29 +383,30 @@ section {
   left: calc(50% - 1px);
   }
   .timeline-content{
-  background-color: #94B3FD;
+  background-color: #94b3fda1;
   padding: 30px;
   border-radius: 8px;
   font-weight: 700;
   
   }
   .h3-timeline{
-  font-size: 20px;
-  color:#ffffff;
+  font-size: 2.2rem;
+  color:#2b2b2b;
   margin:0 0 10px;
-  text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 700;
+  text-transform: uppercase;
   }
   .timeline-content p{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: black;
-    font-weight: 300;
-    line-height: 22px ;
+    opacity: 50%;
+    font-weight: 500;
+    line-height: 2.2rem ;
   }
   /*responsive--*/
   @media(max-width:767px){
     .timeline-item::before{
-      left: 7px;
+      left: .7rem;
     }
     .timeline-item:nth-child(odd){
       padding-right: 0;
@@ -415,7 +416,7 @@ section {
       left: 0;
     }.timeline-item:nth-child(odd),
     .timeline-item:nth-child(even){
-      padding-left: 37px;
+      padding-left: 3.7rem;
     }
   }
 
@@ -423,7 +424,6 @@ section {
 
 .students {
     padding: 10rem;
-    background: linear-gradient(-115deg, #F7F7F7 50%, #427ce2 50%);
     position: relative;
 }
 
@@ -438,14 +438,18 @@ section {
   background: #999 !important;
 }
 
+.carousel-inner {
+
+  border-radius: 15px;
+}
+
 .single-item {
   height: 40rem;
-  background: #222831;
+  background: linear-gradient(45deg, #372acf, #2dafff);
   display: block;
   text-align: center;
   padding: 4rem;
   box-shadow: 0 2rem 4rem rgba(0,0,0,0.15);
-  border-radius: 15px;
   overflow: hidden;
 }
 
@@ -470,7 +474,6 @@ section {
 
 .carousel-title {
   font-size: 4rem !important;
-  color: #3e64ff;
   font-weight: 600;
 }
 
