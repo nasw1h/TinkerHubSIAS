@@ -173,7 +173,7 @@ section {
     text-align: center;
 }
 
-.card {
+#section-wedo .card {
     font-size: 1.4rem;
     background-color: white !important;
     padding: 2.5rem;
@@ -271,7 +271,7 @@ section {
 }
 
 /*Section-events*/
-.section-events {
+#section-events {
   /* background-color: #F7F7F7; */
     text-align: center;
     padding: 6rem;
@@ -650,4 +650,30 @@ section {
     footer .footer-nav {
       margin-bottom: 30px;
     }
+  }
+
+
+  /* Resources  */
+
+  
+  #resources a,
+  #resources a:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+  }
+
+
+  .reso-card {
+    font-size: 2rem;
+    padding: 3rem ;
+    box-shadow: 0 0 5rem #00000017;
+    border-radius: 1rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    min-height: 12rem;
+  }
+
+  .reso-card:hover {
+    background: linear-gradient(45deg, #372acf, #2dafff);
+    color: white;
   }
