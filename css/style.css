@@ -49,7 +49,7 @@ h2 {
 h5 {
     font-weight: 700 !important;
     margin-top: 2rem !important;
-    font-size: 2.2rem !important ;
+    font-size: 2.3rem !important ;
 }
 
 h6 {
@@ -213,15 +213,15 @@ section {
 }
 
 .card-text {
-    font-size: 1.7rem;
-    font-weight: 400;
-    opacity: 80%;
+  font-size: 1.7rem !important;
+  opacity: 50%;
+  font-weight: 500;
 }
 
 .nav-span:hover{
-  border-bottom: 5px solid black;
-  border-radius: 2px;
-  
+  width: 8rem;
+  height: 5rem;
+  background-color: rgba(0,0,0,0.38);
 }
 
 /* section-team */
@@ -242,7 +242,7 @@ section {
 
 .team-card {
   width: 25rem;
-  background-color: white;
+  background-color: #fff;
   margin: 0 auto 5rem auto;
     padding: 2rem;
     border: 2px solid rgba(0,0,0,0.38);
@@ -259,6 +259,13 @@ section {
 
 .team-name {
   color: #3e64ff;
+  font-weight: 700 !important;
+}
+
+.team-role {
+  font-size: 1.6rem !important;
+  opacity: 50%;
+  font-weight: 600;
 }
 
 /*Section-events*/
@@ -335,7 +342,7 @@ section {
 
 .students {
     padding: 10rem;
-    background: linear-gradient(-120deg, #F7F7F7 50%, #427ce2 50%);
+    background: linear-gradient(-115deg, #F7F7F7 50%, #427ce2 50%);
     position: relative;
 }
 
@@ -356,7 +363,9 @@ section {
   display: block;
   text-align: center;
   padding: 4rem;
+  box-shadow: 0 2rem 4rem rgba(0,0,0,0.15);
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .carousel-box {
@@ -396,10 +405,9 @@ section {
     text-align: center;
     padding: 8rem;
     color: white;
-    background-color: #376dcc;
-    background-image: 
-        radial-gradient(at 47% 33%, hsl(35.00, 35%, 72%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(215.34, 86%, 64%) 0, transparent 55%), url("../images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg");
+    
+    background-color: #195cd4;
+    background-image: url("../images/Frame_4.png") ;
     background-size: cover;
     background-position: top;
     }
@@ -412,6 +420,17 @@ section {
 .counter-stack {
     font-size: 2rem;
     font-weight: 700;
+}
+
+.counter-number {
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.counter-area {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 /*Subscribe section*/
@@ -533,7 +552,6 @@ section {
     font-size: 12px;
     color: #fff;
     letter-spacing: 0.88px;
-    text-transform: uppercase;
   }
   
   @media (max-width: 991px) {
