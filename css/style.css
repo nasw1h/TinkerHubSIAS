@@ -551,6 +551,10 @@ section {
   flex-wrap: wrap;
 }
 
+.about-us img {
+  margin: auto;
+}
+
 .about-us .row {
   margin-bottom: 3rem !important;
 }
@@ -834,4 +838,10 @@ section {
     .about-us img {
       display: none;
     }
+  }
+
+
+
+  .card-box1 {
+    display: none;
   }
