@@ -173,7 +173,7 @@ section {
     text-align: center;
 }
 
-#section-wedo .card {
+ .card {
     font-size: 1.4rem;
     background-color: white !important;
     padding: 2.5rem;
@@ -663,7 +663,7 @@ section {
   }
 
 
-  .reso-card {
+  #resources .reso-card {
     font-size: 2rem;
     padding: 3rem ;
     box-shadow: 0 0 5rem #00000017;
@@ -671,9 +671,11 @@ section {
     font-weight: 700;
     margin-bottom: 2rem;
     min-height: 12rem;
+    transition: all .2s ease-out;
   }
 
-  .reso-card:hover {
+  #resources .reso-card:hover {
     background: linear-gradient(45deg, #372acf, #2dafff);
     color: white;
+    transform: scale(1.02) translateY(-3px);
   }
