@@ -158,6 +158,80 @@ hr {
     margin: 0 auto;
 }
 
+.btn-wrapper {
+  max-width: 20rem;
+  margin: 1rem auto 0;
+}
+
+.btn-wrapper a {
+  text-decoration: none !important;
+}
+
+.button {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #372acf, #2dafff);
+  border-radius: 10rem;
+  z-index: -2;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(45deg, #2dafff, #372acf);
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:before {
+  width: 100%;
+}
+
+.button {
+  margin-top: 1rem;
+  border: none;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 3rem;
+  font-weight: 500;
+  background: #317bec;
+  color: white;
+  transition: all 0.1s ease-out;
+}
+
+.button:active {
+  transform: scale(0.95);
+  border: none !important;
+}
+
+.button:hover {
+  background: #004bbd;
+}
+
 .hero-img {
     width: 70%;
     margin-top: -15rem;
