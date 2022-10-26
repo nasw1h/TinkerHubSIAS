@@ -504,6 +504,19 @@ section {
     font-weight: 500;
     line-height: 2.2rem ;
   }
+  .button1 {
+    background-color: #0196e3; /* Green */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button11 {font-size: 15px;}
   /*responsive--*/
   @media(max-width:767px){
     .timeline-item::before{
